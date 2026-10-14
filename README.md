@@ -6,7 +6,7 @@ This system strictly fulfills academic criteria requiring a **pure, custom Singl
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - [Project Overview](#project-overview)
 - [Architecture & Data Structures](#architecture--data-structures)
 - [Key Features](#key-features)
@@ -23,7 +23,7 @@ This system strictly fulfills academic criteria requiring a **pure, custom Singl
 
 ---
 
-## 🏦 Project Overview
+## Project Overview
 
 **ALABPoint** simulates an automated teller machine (ATM) environment managing customer records, cash operations, and inter-account fund transfers entirely in-memory using dynamic node-based linked lists.
 
@@ -34,7 +34,7 @@ This system strictly fulfills academic criteria requiring a **pure, custom Singl
 
 ---
 
-## 🧠 Architecture & Data Structures
+## Architecture & Data Structures
 
 The system employs two separate custom singly linked lists:
 
@@ -99,7 +99,7 @@ classDiagram
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 1. Account Management
 * **Account Creation (Sign Up)**: Generates unique sequential IDs (`ALAB-001`, `ALAB-002`, etc.) with strict field validation and minimum initial deposit (PHP 100.00).
@@ -142,7 +142,7 @@ Available from the entry menu (`[3] Bank Reports`) for administrative visibility
 
 ---
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```text
 atmbankingsystem/
@@ -178,14 +178,14 @@ atmbankingsystem/
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 * **Java Development Kit (JDK)**: Version 17 or higher (tested on JDK 21+).
 * **Maven** (optional, for project compilation): Version 3.8+.
 
 ---
 
-## 🚀 How to Build and Run
+## How to Build and Run
 
 ### Option 1: Using Plain Java CLI (PowerShell / Command Prompt)
 
@@ -215,22 +215,7 @@ atmbankingsystem/
 
 ---
 
-## 📊 Rubric Compliance Matrix
-
-| Rubric Criteria | Points | Implementation Detail |
-| :--- | :---: | :--- |
-| **Functionality** | 20 / 20 | Complete banking lifecycle: register, login, deposit, withdraw, transfer, inquiry, delete, edit, reports, receipts. |
-| **Linked List Implementation** | 20 / 20 | Hand-crafted singly linked lists for both account storage and per-account transaction history. No built-in collections used. |
-| **Account Management** | 20 / 20 | All required core operations implemented via modular console interfaces. |
-| **System Features** | 30 / 30 | Transaction history, reporting (`BankReports`), and receipt generation all executed via linked list traversal. |
-| **Receipt Generation** | 10 / 10 | Detailed, professionally styled ASCII receipts with timestamps and reprint support. |
-| **Console Interface Design** | 10 / 10 | Intuitive CLI with consistent borders, aligned tabular layouts, and clear validation feedback. |
-| **Error Handling** | 10 / 10 | Regex pattern enforcement, ATM bill denomination guards, PIN retry counters, and empty-list checks. |
-| **Total** | **120 / 120** | **Full points across all criteria.** |
-
----
-
-## 🎓 Academic Information
+## Academic Information
 
 * **Course**: Data Structures and Algorithms (DSA)
 * **Program & Section**: BSIT 2E
